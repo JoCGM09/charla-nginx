@@ -35,6 +35,8 @@ sudo nginx -t
 ### Reiniciar el servicio de Nginx
 sudo systemctl reload nginx
 
+### Buscar en tu navegador localhost y verificar que la página estática esté activa
+
 ######## 2. CREAR UN PROXY INVERSO ########
 sudo mkdir -p ~/web-node1
 cd ~/web-node1
@@ -51,13 +53,15 @@ PORT=3002 pm2 start index.js --name node3
 ### Nota: el proceso se detiene con pm2 stop node1,2 y 3
  
 ### Configurar nginx como proxy inverso y balanceador de carga 
-sudo vi /etc/nginx/sites-available/flisol1.com
+sudo vi /etc/nginx/sites-available/flisol.com
 sudo truncate -s 0 flisol1.com
 ### Añadir el archivo flisol-proxy ###
 
 ### Verificar la configuración de nginx y cargar
 sudo nginx -t
 sudo systemctl reload nginx
+
+### Buscar en tu navegador localhost y recargarla para verificar el balanceo de carga
 
 ######## 3. CREAR UN CERTIFICADO SSL ########
 
