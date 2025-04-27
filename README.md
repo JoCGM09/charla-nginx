@@ -7,7 +7,7 @@ Este repositorio contiene los materiales y ejemplos utilizados para una charla s
 Para obtener el código fuente en tu máquina local, ejecuta el siguiente comando en tu terminal:
 
 ```bash
-git clone [https://github.com/JoCGM09/charla-nginx.git](https://github.com/JoCGM09/charla-nginx.git)
+git clone https://github.com/JoCGM09/charla-nginx.git
 ```    
 
 ## Utiliza el archivo scripts.sh para ejecutar los comandos en Linux
