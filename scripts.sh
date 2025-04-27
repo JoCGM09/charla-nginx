@@ -22,7 +22,7 @@ cp default flisol.com
 
 ### Modificar cada uno de los archivos
 vi flisol.com
-### Añadir el archivo flisol1.com ###
+### Añadir el archivo flisol.com ###
 
 
 ### Pasar los archivos a sites-enabled mediante link simbólico
